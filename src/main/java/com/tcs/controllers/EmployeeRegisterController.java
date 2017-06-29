@@ -41,5 +41,8 @@ public class EmployeeRegisterController {
 		System.out.println("public String gotoRegister()");
 		return "Register";
 	}
-
+public void m1()
+{
+	System.out.println("hi");
+}
 }
