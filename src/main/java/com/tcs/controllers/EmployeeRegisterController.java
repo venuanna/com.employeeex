@@ -23,6 +23,7 @@ public class EmployeeRegisterController {
 
 		System.out.println("Am in the register method");
 		System.out.println("Venu modified");
+		System.out.println("hello");
 
 		employee.setLocked(false);
 		employee.setCount(0);
