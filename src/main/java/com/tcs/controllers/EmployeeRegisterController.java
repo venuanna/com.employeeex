@@ -22,6 +22,7 @@ public class EmployeeRegisterController {
 	public String registerEmp(@ModelAttribute("register") Employee employee, Model model) {
 
 		System.out.println("Am in the register method");
+		System.out.println("Venu modified");
 
 		employee.setLocked(false);
 		employee.setCount(0);
